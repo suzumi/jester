@@ -10,7 +10,7 @@ skipDirs = @["tests"]
 
 # Deps
 
-requires "nim >= 0.18.1"
+requires "nim >= 0.18.0"
 
 when not defined(windows):
   requires "httpbeast >= 0.2.0"
